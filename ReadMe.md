@@ -4,7 +4,7 @@ This project demonstrates how to deploy **Web UI** and **Web API** services on *
 
 The ECS services are configured to run in a **public subnet** for the Web UI and a **private subnet** for the Web API. Communication between the Web UI and Web API services
 
-Depends on the Application requirement, we can use EC2 as backend, if we need to store any volumes
+Note: Depends on the Application requirement, we can use EC2 as backend, if we need to store any volumes
 
 ![AWS-Fargate](aws-fargate.png)
 
@@ -19,6 +19,22 @@ Before you begin, you need to have the following installed and configured:
 - AWS account with appropriate permissions
 
 
+## Steps to Deploy Infrastructure
+
+### 1. Preview Changes (`pulumi preview`)
+
+Before applying any changes, you can preview what will happen to your cloud infrastructure. This will show the resources that will be created, updated, or deleted.
+
+Run the following command to review the changes:
+pulumi preview
+
+2. Apply Changes (pulumi up) 
+    pulumi up
+ 
+3. Verify Deployment(After running pulumi up, you can verify the status of your infrastructure by using the pulumi stack command:
+)
+
+   pulumi stack
 
 # How to Run
 
