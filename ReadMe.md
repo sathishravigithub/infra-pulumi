@@ -30,8 +30,9 @@ Before applying any changes, you can preview what will happen to your cloud infr
 Run the following command to review the changes:
 pulumi preview
 
-2. Apply Changes (pulumi up) 
-    pulumi up
+2. Apply Changes (pulumi up) to prod
+    pulumi up --stack prod
+
  
 3. Verify Deployment(After running pulumi up, you can verify the status of your infrastructure by using the pulumi stack command:
 )
