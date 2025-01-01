@@ -28,10 +28,10 @@ Before you begin, you need to have the following installed and configured:
 Before applying any changes, you can preview what will happen to your cloud infrastructure. This will show the resources that will be created, updated, or deleted.
 
 Run the following command to review the changes:
-pulumi preview
+```pulumi preview```
 
 2. Apply Changes (pulumi up) to prod
-    pulumi up --stack prod
+    ```pulumi up --stack prod```
 
  
 3. Verify Deployment(After running pulumi up, you can verify the status of your infrastructure by using the pulumi stack command:
