@@ -29,7 +29,7 @@ Before applying any changes, you can preview what will happen to your cloud infr
 
 Run the following command to review the changes:
 
-    ```pulumi preview```
+  ```pulumi preview```
 
 2. Apply Changes (pulumi up) to prod
 
@@ -39,7 +39,7 @@ Run the following command to review the changes:
 3. Verify Deployment(After running pulumi up, you can verify the status of your infrastructure by using the pulumi stack command:
 )
 
-   pulumi stack
+   ```pulumi stack```
 
 # How to Run
 
