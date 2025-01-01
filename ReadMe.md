@@ -6,7 +6,7 @@ The ECS services are configured to run in a **public subnet** for the Web UI and
 
 Depends on the Application requirement, we can use EC2 as backend, if we need to store any volumes
 
-![AWS-Fargate](AWS-Fargate.png)
+![AWS-Fargate](Aws-Fargate.png)
 
 
 ## Prerequisites
