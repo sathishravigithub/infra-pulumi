@@ -29,7 +29,7 @@ Before applying any changes, you can preview what will happen to your cloud infr
 
 1. Run the following command to review the changes:
 
-  ```pulumi preview```
+    ```pulumi preview```
 
 2. Apply Changes (pulumi up) to prod
 
