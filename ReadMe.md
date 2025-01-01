@@ -6,6 +6,8 @@ The ECS services are configured to run in a **public subnet** for the Web UI and
 
 Note: Depends on the Application requirement, we can use EC2 as backend, if we need to store any volumes
 
+The below diagram is the sample diagram which I took from the official AWS, the code is created based on that in pulumi.
+
 ![AWS-Fargate](aws-fargate.png)
 
 
