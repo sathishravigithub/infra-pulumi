@@ -27,7 +27,7 @@ Before you begin, you need to have the following installed and configured:
 
 Before applying any changes, you can preview what will happen to your cloud infrastructure. This will show the resources that will be created, updated, or deleted.
 
-Run the following command to review the changes:
+1. Run the following command to review the changes:
 
   ```pulumi preview```
 
